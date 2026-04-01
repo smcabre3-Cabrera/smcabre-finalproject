@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me</title>
+  <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+  <div id="wrapper" class="nohero">
+    <header>
+      <h1><a href="index.html">Contact</a></h1>
+    </header>
+
+        <nav>
+            <a href="index.html"><b>Home</b>&nbsp;</a> 
+            <a href="AboutMe.html"><b>About Me</b>&nbsp;</a>
+            <a href="Projects.html"><b>Projects</b>&nbsp;</a>
+            <a href="SkillsandExperience.html"><b>Skills and Experience</b>&nbsp;</a>
+            <a href="contact.html"><b>Contact</b>&nbsp;</a>
+        </nav>
+    <main>
+      <h2>Contact Me</h2>
+
+      <h3>Get in Touch!</h3>
+      <p>Required fields are marked with an asterisk *</p>
+
+      <form method="post" action="https://webdevbasics.net/scripts/pacific.php">
+        <label for="myFName">*First Name:</label>
+        <input type="text" id="myFName" name="myFName" required>
+
+        <label for="myLName">*Last Name:</label>
+        <input type="text" id="myLName" name="myLName" required>
+
+        <label for="myEmail">*E-mail:</label>
+        <input type="email" id="myEmail" name="myEmail" required>
+
+        <label for="myPhone">Phone:</label>
+        <input type="tel" id="myPhone" name="myPhone" maxlength="12">
+
+        <label for="myComments">*Comments:</label>
+        <textarea id="myComments" name="myComments" rows="2" cols="30" required></textarea>
+
+        <input type="submit" value="Submit">
+      </form>
+
+        <div id="contact">
+            <p><span class="resort">My Contact Information:</span></p>
+            <p>310-303-8093</p>
+            <a href="mailto:smcabre3@asu.edu"><i>Sean@Cabrera.com</i></a>
+        </div>
+    </main>
+
+    <footer>
+      <p>Copyright &copy; 2026 Sean Cabrera</p>
+      <nav>
+        <a href="mailto:smcabre3@asu.edu">Sean@Cabrera.com</a>
+      </nav>
+    </footer>
+  </div>
+</body>
+</html>

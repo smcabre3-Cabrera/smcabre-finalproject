@@ -1,0 +1,166 @@
+:root {
+  --text: #000000;
+  --background: #fffefa;
+  --primary: #600100;
+  --secondary: #ffd900;
+  --accent: #000000;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: var(--background);
+  color: var(--text);
+  font-family: Arial, sans-serif;
+}
+
+#wrapper {
+  width: 80%;
+  margin: auto;
+  background-color: var(--background);
+  border: 1px solid var(--accent);
+  box-shadow: 3px 3px 3px #333333;
+}
+
+header {
+  background-color: var(--primary);
+  color: var(--background);
+  text-align: center;
+  padding: 1em;
+}
+
+header a {
+  text-decoration: none;
+  color: var(--background);
+}
+
+header a:hover {
+  color: var(--secondary);
+}
+
+h1 {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  letter-spacing: 0.15em;
+}
+
+nav {
+  text-align: center;
+  background-color: var(--background);
+  padding: 1em 0;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--primary);
+  margin: 0 0.5em;
+}
+
+nav a:visited {
+  color: var(--accent);
+}
+
+nav a:hover {
+  color: var(--secondary);
+}
+
+main {
+  background-color: var(--background);
+  padding: 1em 2em 2em 2em;
+}
+
+h2 {
+  color: var(--primary);
+  font-family: Georgia, "Times New Roman", serif;
+  text-shadow: 1px 1px 1px #CCCCCC;
+}
+
+h3 {
+  color: var(--accent);
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+ul {
+  padding-left: 1.5em;
+}
+
+.resort {
+  color: var(--secondary);
+  font-weight: bold;
+}
+
+#contact {
+  font-size: 90%;
+  margin-top: 1em;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+}
+
+label {
+  margin-top: 0.5em;
+  font-weight: bold;
+  color: var(--accent);
+}
+
+input,
+textarea {
+  margin-top: 0.25em;
+  margin-bottom: 0.75em;
+  padding: 0.5em;
+  font-family: Arial, sans-serif;
+  border: 1px solid var(--primary);
+  color: var(--text);
+  background-color: var(--background);
+}
+
+input[type="submit"] {
+  width: 120px;
+  cursor: pointer;
+  background-color: var(--primary);
+  color: var(--background);
+  border: none;
+}
+
+input[type="submit"]:hover {
+  background-color: var(--secondary);
+  color: var(--accent);
+}
+
+footer {
+  background-color: var(--background);
+  text-align: center;
+  font-size: 75%;
+  font-style: italic;
+  font-family: Georgia, "Times New Roman", serif;
+  padding: 1.5em;
+  color: var(--text);
+}
+
+footer p {
+  margin: 0 0 0.5em 0;
+}
+
+footer nav {
+  background-color: transparent;
+  padding: 0;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--primary);
+}
+
+footer a:hover {
+  color: var(--secondary);
+}
