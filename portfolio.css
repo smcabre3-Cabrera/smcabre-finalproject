@@ -49,16 +49,17 @@ h1 {
 
 nav {
   text-align: center;
-  background-color: var(--background);
+  background-color: var(--secondary); 
   padding: 1em 0;
   font-size: 1.1em;
   font-weight: bold;
+  width: 100%;
 }
 
 nav a {
   text-decoration: none;
   color: var(--primary);
-  margin: 0 0.5em;
+  margin: 0 0.75em;
 }
 
 nav a:visited {
@@ -66,7 +67,7 @@ nav a:visited {
 }
 
 nav a:hover {
-  color: var(--secondary);
+  color: var(--primary);
 }
 
 main {
@@ -99,7 +100,41 @@ ul {
   margin-top: 1em;
 }
 
-/* Form Styles */
+.sparky {
+  clear: both;
+  text-align: center;
+  margin: 1em 0;
+}
+
+.headshot {
+  float: left;
+  width: 200px;       
+  height: auto;
+  margin: 0 15px 10px 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse; 
+  margin-top: 1em;
+}
+
+th, td {
+  border: 1px solid black;   
+  padding: 10px;             
+  text-align: left;
+}
+
+th {
+  background-color: var(--primary); 
+  color: white;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2; 
+}
+
 form {
   max-width: 600px;
   margin: 0 auto;
