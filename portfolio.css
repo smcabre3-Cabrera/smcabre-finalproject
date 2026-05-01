@@ -2,7 +2,7 @@
   --text: #000000;
   --background: #fffefa;
   --primary: #600100;
-  --secondary: #ffd900;
+  --secondary: #FFC627;
   --accent: #000000;
 }
 
@@ -249,4 +249,61 @@ footer a {
 
 footer a:hover {
   color: var(--secondary);
+}
+
+.project {
+  display: flex;
+  gap: 2em;
+  align-items: flex-start;
+}
+
+.project-text {
+  flex: 1;
+}
+
+.project-images img {
+  float: right;
+  width: 450px;
+  height: auto;
+  object-fit: contain;  
+  border: 1px solid black;
+}
+
+.project2 {
+  margin-top: 2em;
+}
+
+.welcome-video {
+  float: right;
+  width: 200px;
+  height: 350px;
+  object-fit: cover;
+  margin: 0 125px 1em 2em;
+}
+
+.clear {
+  clear: both;
+}
+
+.project2 {
+  margin-top: 2em;
+}
+
+.project2-images {
+  float: right;
+  width: 450px;
+  margin: 0 0 1em 2em;
+}
+
+.project2-images img {
+  display: block;
+  width: 450px;
+  height: auto;
+  object-fit: contain;
+  border: 1px solid black;
+  margin-bottom: 1em;
+}
+
+.clear {
+  clear: both;
 }
